@@ -1,0 +1,13 @@
+@font-face {
+  font-family:neuzit-bold;
+  src:url('./fonts/Neuzeit-Grotesk-Bold.ttf');
+}
+@font-face {
+  font-family: neuzeit-light;
+  src:url('./fonts/Neuzeit-Grotesk-Light.ttf')
+}
+
+body {
+    margin:0;
+    overflow: hidden;
+  }

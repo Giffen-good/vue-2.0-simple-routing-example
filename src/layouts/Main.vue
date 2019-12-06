@@ -1,31 +1,39 @@
 <template>
-  <div class="container">
-    <ul>
-      <li>
-        <v-link href="/">Home</v-link>
-        <v-link href="/about">About</v-link>
-      </li>
-    </ul>
-
-    <slot></slot>
+  <div id="main" class="container">
+   <slot></slot>
   </div>
 </template>
 
 <script>
-  import VLink from '../components/VLink.vue'
 
   export default {
     components: {
-      VLink
     }
   }
 </script>
 
-<style scoped>
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 15px 30px;
-    background: #f9f7f5;
+<style>
+@font-face {
+  font-family:neuzeit-bold;
+  src:url('/public/fonts/Neuzeit-Grotesk-Bold.ttf');
+}
+@font-face {
+  font-family: neuzeit-light;
+  src:url('/public/fonts/Neuzeit-Grotesk-Light.ttf')
+}
+@font-face {
+  font-family: neuzeit;
+  src:url('/public/fonts/Neuzeit-Grotesk-Regular.ttf')
+
+}
+
+body {
+    margin:0;
+    overflow: hidden;
   }
+ #main {
+    display:flex;
+  
+  }
+
 </style>
