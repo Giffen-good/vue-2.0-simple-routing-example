@@ -25,6 +25,7 @@ const app = new Vue({
           document.body.classList.add('init');
         else
           document.body.classList.remove('init');
+        document.getElementById('contact').classList.add('con');
 
       }, 1000);
     }

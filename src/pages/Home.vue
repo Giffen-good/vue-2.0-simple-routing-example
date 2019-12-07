@@ -67,8 +67,11 @@
     transition-delay: 1.4s;
     max-width:700px;
     max-height:700px;
-    opacity:1;
+    opacity:0;
 
+  }
+  #contact.con {
+    opacity: 1;
   }
 .init #contact {
   opacity: 0;
