@@ -32,10 +32,13 @@
           routes[this.href],
           this.href
         )
-        if (this.href == '/')
+        if (this.href == '/'){
           document.body.classList.add('init');
-        else
+        document.getElementById('contact').classList.remove('con');
+        }else {
           document.body.classList.remove('init');
+          document.getElementById('contact').classList.add('con');
+        }
 
       }
     }

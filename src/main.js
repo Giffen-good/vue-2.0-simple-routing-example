@@ -21,11 +21,14 @@ const app = new Vue({
   methods: {
     slide() {
       setTimeout(function() {
-        if (window.location.pathname == '/')
+        if (window.location.pathname == '/'){
           document.body.classList.add('init');
-        else
+        document.getElementById('contact').classList.remove('con');
+      }    else {
           document.body.classList.remove('init');
-        document.getElementById('contact').classList.add('con');
+          document.getElementById('contact').classList.add('con');
+
+        }
 
       }, 1000);
     }

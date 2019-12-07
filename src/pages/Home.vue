@@ -63,19 +63,21 @@
     height: 65vh;
     color:#333;
     font-family: neuzeit;
-    transition:opacity 0.3s ease-out;
-    transition-delay: 1.4s;
+    transition:opacity 0.3s ease-out 1.4s, z-index 0s;
     max-width:700px;
     max-height:700px;
     opacity:0;
+    z-index: -1;
 
   }
   #contact.con {
     opacity: 1;
+    z-index: 1;
   }
 .init #contact {
   opacity: 0;
-  transition-delay: 0s;
+  transition:opacity 0.3s ease-out 1.4s, z-index 1.7s;
+
 }
 
   #contact > div {
