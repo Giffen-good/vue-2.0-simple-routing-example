@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <sidebar/>
-    <img v-bind:src="selectedImage" />
   </main-layout>
 </template>
 
@@ -14,6 +13,24 @@
       MainLayout,
       Sidebar
     },
+    watch: {
+      $route (to, from) {
+        this.slide();
+        this.routeChanged = false;
+      }
+    },
+    methods: {
+      slide() {
+        setTimeout(function() {
+          document.body.classList.toggle('init');
+        }, 1000);
+      }
+    },
+    mounted: function() {
+      this.$nextTick(function() {
+        this.slide();
+      })
+    },
     data() {
       return {
         images: [
@@ -22,12 +39,14 @@
           '/public/imgs/home-plants-super-close.jpg'
 
         ],
-        selectedImage: ''
+        selectedImage: '',
+        routeChanged: true
       }
     },
     created () {
       const idx = Math.floor(Math.random() * this.images.length);
-      this.selectedImage = this.images[idx]
+      if (this.selectedImage == '' && this.routeChanged)
+        this.selectedImage = this.images[idx]
     }
   }
 </script>

@@ -32,6 +32,11 @@
           routes[this.href],
           this.href
         )
+        if (this.href == '/')
+          document.body.classList.add('init');
+        else
+          document.body.classList.remove('init');
+
       }
     }
   }
@@ -39,6 +44,5 @@
 
 <style scoped>
   .active {
-    color: cornflowerblue;
   }
 </style>

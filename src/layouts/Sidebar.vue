@@ -7,13 +7,13 @@
     <div  id="sidebar">
     <ul>
       <li>
-       <a target="_blank" href="/">Catalogue</a>
-       <a class="indent" target="_blank" href="/">Download PDF</a>
+       <a href="#catalogue">Catalogue</a>
+       <a class="indent" target="_blank" href="/public/YOUTH.pdf">Download PDF</a>
           
       </li>
       <li>
         <v-link href="/contact">Contact</v-link>
-        <v-link href="">Login/Newsletter</v-link>
+        <v-link href="#login">Login/Newsletter</v-link>
         <a href="#follow-link">Follow Us</a>
       </li>
     </ul>
@@ -79,9 +79,10 @@
     position:absolute;
     z-index: 2;
     left:30px;
-    top:0;
+    top:-10px;
     transition:filter 0.55s;
   transition-delay:0.4s;
+  flex:1;
 }
 .init ul li {
   opacity:1;

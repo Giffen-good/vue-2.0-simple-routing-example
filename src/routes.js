@@ -1,4 +1,4 @@
 export default {
   '/': 'Home',
-  '/contact': 'Contact'
+  '/contact': 'Home'
 }

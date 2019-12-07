@@ -5,17 +5,32 @@ import VueAnalytics from 'vue-analytics'
 Vue.use(VueAnalytics, {
     id: 'UA-XXX-X'
 })
+export const bus = new Vue()
 const app = new Vue({
   el: '#app',
   data: {
     currentRoute: window.location.pathname
+
+
   },
-  mounted: function() {
-      this.$nextTick(function() {
-        setTimeout(function() {
+  watch: {
+    $route(to, from) {
+      this.slide();
+    }
+  },
+  methods: {
+    slide() {
+      setTimeout(function() {
+        if (window.location.pathname == '/')
           document.body.classList.add('init');
-        }, 1000);
-      })
+        else
+          document.body.classList.remove('init');
+
+      }, 1000);
+    }
+  },
+  created() {
+    this.slide()
   },
   computed: {
     ViewComponent () {
