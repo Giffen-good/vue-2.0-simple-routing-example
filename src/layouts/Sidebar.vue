@@ -53,7 +53,7 @@
     font-family: neuzeit-light
 }
 .init #fake-sidebar {
-    width:410px;
+    width:395px;
 }
 #sidebar, #fake-sidebar {
     transition: all 1s ease-out;
