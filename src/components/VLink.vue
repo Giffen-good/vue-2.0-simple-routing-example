@@ -47,6 +47,7 @@
         }    else {
           document.body.classList.remove('init');
           document.getElementById('plasiq-logo').classList.add('con');
+
           document.getElementById('plasiq-logo').classList.remove('flip-2');
           document.getElementById('plasiq-logo').classList.remove('flip-3');
 

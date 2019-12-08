@@ -103,7 +103,7 @@
 filter: invert(1);
   transition-delay: 0s;
 }
-.logo.con.flip img, .logo.flip-3 img  {
+.logo.flip img, .logo.flip-3 img  {
   filter:invert(0);
   transition:filter 0.3s ease-out 0s;
 

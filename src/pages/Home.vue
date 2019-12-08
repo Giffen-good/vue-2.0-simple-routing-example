@@ -30,6 +30,11 @@
     },
     mounted: function() {
       this.$nextTick(function() {
+        if (window.location.pathname == '/about') {
+          document.getElementById('contact').classList.add('con');
+          document.getElementById('plasiq-logo').classList.add('flip');
+
+        }
         this.slide();
       })
     },
@@ -149,6 +154,7 @@
       display: flex;
       align-items: center;
       overflow-y: auto;
+      justify-content: center;
     }
     #contact p {
       max-width: 100%;
