@@ -51,4 +51,20 @@ const app = new Vue({
 
 window.addEventListener('popstate', () => {
   app.currentRoute = window.location.pathname
-})
+  if (window.location.pathname == '/'){
+    document.body.classList.add('init');
+    document.getElementById('contact').classList.remove('con');
+    document.getElementById('plasiq-logo').classList.remove('con');
+    document.getElementById('plasiq-logo').classList.remove('flip');
+
+  }    else {
+    document.body.classList.remove('init');
+    document.getElementById('plasiq-logo').classList.add('con');
+    document.getElementById('contact').classList.add('con');
+    setTimeout(function() {
+      document.getElementById('plasiq-logo').classList.add('flip');
+
+    }, 1400);
+
+  }
+});

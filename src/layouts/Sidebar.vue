@@ -1,20 +1,20 @@
 <template>
   <div class="container">
-    <h1 class="logo">
+    <h1 id="plasiq-logo" class="logo">
         <v-link href="/"><img src="/public/imgs/PLASIQ_LOGO_Nov17.png" /></v-link>
     </h1>
     <div id="fake-sidebar"></div>
     <div  id="sidebar">
     <ul>
       <li>
-       <a href="#catalogue">Catalogue</a>
-       <a class="indent" target="_blank" href="/public/YOUTH.pdf">Download PDF</a>
+       <div><span>Catalogue</span></div>
+       <div><a class="indent" target="_blank" href="/public/YOUTH.pdf">Download PDF</a></div>
           
       </li>
       <li>
-        <v-link href="/contact">Contact</v-link>
-        <v-link href="#login">Login/Newsletter</v-link>
-        <a href="#follow-link">Follow Us</a>
+        <div><v-link href="/about">About</v-link></div>
+        <div><a href="mailto:info@plasiq.shop">Contact</a></div>
+        <div><a target="_blank" href="https://www.instagram.com/plasiq/">Follow Us</a></div>
       </li>
     </ul>
 
@@ -54,11 +54,18 @@
 }
 .init #fake-sidebar {
     width:395px;
+  transition-delay:0.45s;
+
 }
-#sidebar, #fake-sidebar {
+#sidebar {
+  transition: transform 1s ease-out;
+  transition-delay:0.4s;
+}
+#fake-sidebar {
     transition: all 1s ease-out;
-    transition-delay:0.4s;
+    transition-delay:0.40s;
 }
+
 .container {
     height:100vh;
 }
@@ -80,19 +87,32 @@
     z-index: 2;
     left:30px;
     top:-10px;
-    transition:filter 0.55s;
-  transition-delay:0.4s;
+    transition:filter 0.6s ease-out;
+  transition-delay:1.3s;
   flex:1;
+}
+.logo.con img {
+  transition:filter 0.3s ease-out;
+  filter:invert(1);
 }
 .init ul li {
   opacity:1;
+}
+
+.logo.flip-2 img {
+filter: invert(1);
+  transition-delay: 0s;
+}
+.logo.con.flip img, .logo.flip-3 img  {
+  filter:invert(0);
+  transition:filter 0.3s ease-out 0s;
+
 }
 ul {
   bottom: 0;
     padding-left: 0;
 }
-a {
-    display: block;
+a, span {
      text-decoration: none;
     color:#333;
     font-family: neuzeit-bold;
@@ -112,5 +132,16 @@ transition-delay: 1.6s;
 }
   .container {
     background: #f9f7f5;
+  }
+  @media screen and (max-width: 550px) {
+    #sidebar {
+      width:100vw;
+      transform: translateX(-100vw);
+
+    }
+
+    .init #fake-sidebar {
+      width:70vw;
+    }
   }
 </style>
