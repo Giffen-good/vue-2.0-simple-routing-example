@@ -56,10 +56,19 @@ window.addEventListener('popstate', () => {
     document.getElementById('contact').classList.remove('con');
     document.getElementById('plasiq-logo').classList.remove('con');
     document.getElementById('plasiq-logo').classList.remove('flip');
+    document.getElementById('plasiq-logo').classList.add('flip-2');
+
+    setTimeout(function() {
+      document.getElementById('plasiq-logo').classList.add('flip-3');
+
+    }, 1400);
 
   }    else {
     document.body.classList.remove('init');
     document.getElementById('plasiq-logo').classList.add('con');
+    document.getElementById('plasiq-logo').classList.remove('flip-2');
+    document.getElementById('plasiq-logo').classList.remove('flip-3');
+
     document.getElementById('contact').classList.add('con');
     setTimeout(function() {
       document.getElementById('plasiq-logo').classList.add('flip');

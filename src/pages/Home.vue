@@ -116,6 +116,7 @@
   #contact > div {
     position: relative;
     height: 100%;
+    min-height:420px;
   }
   h2 {
     margin: 0;
