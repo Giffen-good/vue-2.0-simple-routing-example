@@ -35,7 +35,6 @@
           document.getElementById('plasiq-logo').classList.add('flip');
 
         }
-        this.slide();
       })
     },
     data() {
@@ -43,6 +42,7 @@
         images: [
           '/public/imgs/plasiq_desktop_header-01-compressor.jpg',
           '/public/imgs/plasiq_desktop_header-02-compressor.jpg',
+          '/public/imgs/plasiq_desktop_header-03-compressor.jpg',
           '/public/imgs/plasiq_desktop_header-04-compressor.jpg'
 
         ],
@@ -106,10 +106,10 @@
     display: block;
     float: right;
     text-align: justify;
-    padding-right: 34px;
-    padding-top: 34px;
+    padding-right: 37px;
+    padding-top: 42px;
     margin-top: 0;
-    line-height: 26px;
+    line-height: 23px;
   }
 .init #contact {
   opacity: 0;
@@ -137,7 +137,7 @@
     right: 0;
     top:0;
     margin:30px 30px;
-    color:#333;
+    color:#000000;
 
   }
   @media screen and (max-width:768px) {

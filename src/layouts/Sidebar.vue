@@ -82,7 +82,7 @@
 }
 .logo img  {
   filter:invert(1);
-  width:170px;
+  width:155px;
     position:absolute;
     z-index: 2;
     left:30px;
@@ -109,12 +109,13 @@ filter: invert(1);
 
 }
 ul {
+  margin: 0;
   bottom: 0;
     padding-left: 0;
 }
 a, span {
      text-decoration: none;
-    color:#333;
+    color:#000;
     font-family: neuzeit-bold;
     margin:5px 0;
 }
@@ -123,7 +124,7 @@ li {
   transition: 0.5s;
   transition-delay: 1.4s;
   opacity:0;
-  padding-bottom: 40px;
+  padding-bottom: 42px;
     list-style-type: none;
 
 }
