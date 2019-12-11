@@ -8,7 +8,7 @@
     <ul>
       <li>
        <div><span>Catalogue</span></div>
-       <div><a class="indent" target="_blank" href="/public/YOUTH.pdf">Download PDF</a></div>
+       <div><a class="indent" target="_blank" href="/public/PLASIQ_catalogue_2020_web.pdf">Download PDF</a></div>
           
       </li>
       <li>

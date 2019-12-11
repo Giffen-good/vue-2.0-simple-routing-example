@@ -6,12 +6,8 @@
 
     <div id="contact">
       <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nullam hendrerit eu augue vel sodales.
-          In vel turpis sed lectus ullamcorper tempus ullamcorper vitae felis.
-          Nam eget vehicula enim. Nunc ac est vitae odio porttitor sodales. Nam maximus, metus nec finibus suscipit, libero tellus efficitur odio, eu mattis metus augue et est.
-          Nullam fringilla sagittis commodo. Mauris tempus mi a neque gravida tempor a at libero. Ut at varius tortor. Fusce in bibendum diam. Pellentesque pretium bibendum velit non elementum. Nulla at ex in odio maximus iaculis ut ut quam.
-          Nam egestas sed metus sed lobortis. Pellentesque rhoncus elit ultricies bibendum bibendum. </p>
+        <p>PLASIQ is art imitating life in full form. Our designs allow even the busiest of home and commercial property owners to curate their space with the lush, nourishing comforts of greenery with minimal maintenance required—none to be exact. Highly adaptive and versatile, our objects are also customisable. Much 
+like travel, nature, and aesthetic, PLASIQ’s aim is to create opportunities for escapism in every space we occupy. </p>
       </div>
     </div>
   </main-layout>
