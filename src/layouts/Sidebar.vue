@@ -39,7 +39,7 @@
     width:410px;
     height:100%;
     position: absolute;
-    padding: 15px 30px 0;
+    padding: 15px 29px 0;
     transform: translateX(-410px);
     left:0;
     top:0;
@@ -82,11 +82,11 @@
 }
 .logo img  {
   filter:invert(1);
-  width:155px;
+  width:135px;
     position:absolute;
     z-index: 2;
     left:30px;
-    top:-10px;
+    top:-16px;
     transition:filter 0.6s ease-out;
   transition-delay:1.3s;
   flex:1;
@@ -118,13 +118,14 @@ a, span {
     color:#000;
     font-family: neuzeit-bold;
     margin:5px 0;
+  font-size:15px;
 }
 li {
 
   transition: 0.5s;
   transition-delay: 1.4s;
   opacity:0;
-  padding-bottom: 42px;
+  padding-bottom: 29px;
     list-style-type: none;
 
 }

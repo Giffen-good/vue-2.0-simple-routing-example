@@ -85,7 +85,7 @@ like travel, nature, and aesthetic, PLASIQ’s aim is to create opportunities fo
     background: linear-gradient(0deg,
     rgb(220, 220, 64) 0%, rgb(133, 172, 63) 100%);
     height: 101%;
-    color:#333;
+    color:#000;
     font-family: neuzeit;
     transition:opacity 0.3s ease-out 1.4s, z-index 0s;
     opacity:0;
@@ -102,10 +102,11 @@ like travel, nature, and aesthetic, PLASIQ’s aim is to create opportunities fo
     display: block;
     float: right;
     text-align: justify;
-    padding-right: 37px;
-    padding-top: 42px;
+    padding-right: 29px;
+    padding-top: 29px;
     margin-top: 0;
-    line-height: 23px;
+      font-size: 12px;
+    line-height: 20px;
   }
 .init #contact {
   opacity: 0;
