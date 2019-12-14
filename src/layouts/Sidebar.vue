@@ -3,7 +3,6 @@
     <h1 id="plasiq-logo" class="logo">
         <v-link href="/"><img src="/public/imgs/PLASIQ_LOGO_Nov17.png" /></v-link>
     </h1>
-    <div id="fake-sidebar"></div>
     <div  id="sidebar">
     <ul>
       <li>
