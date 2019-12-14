@@ -119,8 +119,7 @@
     transform:translateX(0);
   }
   .init .logo img {
-    -webkit-filter:invert(0);
-    filter:invert(0);  animation:filterSlide;
+    animation:filterSlide;
     animation-delay: 1.3s;
     animation-duration: 0.6s;
     animation-fill-mode:forwards;
