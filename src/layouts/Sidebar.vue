@@ -38,7 +38,7 @@
     width:410px;
     height:100%;
     position: absolute;
-    padding: 15px 29px 0;
+    padding: 15px 32px 0;
     transform: translateX(-410px);
     left:0;
     top:0;
