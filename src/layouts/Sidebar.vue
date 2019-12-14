@@ -120,7 +120,22 @@
   }
   .init .logo img {
     -webkit-filter:invert(0);
-    filter:invert(0);
+    filter:invert(0);  animation:filterSlide;
+    animation-delay: 1.3s;
+    animation-duration: 0.6s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  @keyframes filterSlide {
+    0% {
+      filter:invert(1);
+      -webkit-filter:invert(1);
+
+    }
+    100% {
+      -webkit-filter:invert(0);
+      filter: invert(0);
+    }
   }
   .logo img  {
     -webkit-filter:invert(1);
@@ -130,6 +145,9 @@
     z-index: 2;
     left:30px;
     top:-16px;
+    -webkit-transition:all 0.6s ease-out 1.3s;
+    transition:all 0.6s ease-out 1.3s;
+    -o-transition:all 0.6s ease-out 1.3s;
     -webkit-box-flex:1;
     -ms-flex:1;
     flex:1;
@@ -148,6 +166,7 @@
   }
 
   .logo.flip-2 img {
+    animation: initial;
     -webkit-filter: invert(1);
     filter: invert(1);
     -webkit-transition-delay: 0s;
