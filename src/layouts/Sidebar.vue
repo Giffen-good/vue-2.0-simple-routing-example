@@ -30,15 +30,19 @@
       VLink
     }
   }
-  document.addEventListener('DOMContentLoaded',function() {
-    if (window.location.pathname == '/'){
-      document.body.classList.add('init');
-      document.getElementById('contact').classList.remove('con');
-    }    else {
-      document.body.classList.remove('init');
-      document.getElementById('contact').classList.add('con');
 
-    }
+  document.addEventListener('DOMContentLoaded',function() {
+    setTimeout(function() {
+      if (window.location.pathname == '/'){
+        document.body.classList.add('init');
+        document.getElementById('contact').classList.remove('con');
+      }    else {
+        document.body.classList.remove('init');
+        document.getElementById('contact').classList.add('con');
+
+      }
+    }.bind(this),1000);
+
   })
 </script>
 
