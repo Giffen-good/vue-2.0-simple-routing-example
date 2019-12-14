@@ -30,6 +30,16 @@
       VLink
     }
   }
+  document.addEventListener('DOMContentLoaded',function() {
+    if (window.location.pathname == '/'){
+      document.body.classList.add('init');
+      document.getElementById('contact').classList.remove('con');
+    }    else {
+      document.body.classList.remove('init');
+      document.getElementById('contact').classList.add('con');
+
+    }
+  })
 </script>
 
 <style scoped>

@@ -34,7 +34,7 @@ const app = new Vue({
     }
   },
   created() {
-    this.slide()
+
   },
   computed: {
     ViewComponent () {
