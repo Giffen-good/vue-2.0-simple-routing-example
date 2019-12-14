@@ -130,11 +130,9 @@
     z-index: 2;
     left:30px;
     top:-16px;
-    -webkit-transition:-webkit-filter 0.6s ease-out;
-    transition:-webkit-filter 0.6s ease-out;
-    -o-transition:filter 0.6s ease-out;
-    transition:filter 0.6s ease-out;
-    transition:filter 0.6s ease-out, -webkit-filter 0.6s ease-out;
+    -webkit-transition:all 0.6s ease-out;
+    transition:all 0.6s ease-out;
+    -o-transition:all 0.6s ease-out;
     -webkit-transition-delay:1.3s;
     -o-transition-delay:1.3s;
     transition-delay:1.3s;
