@@ -102,7 +102,7 @@ like travel, nature, and aesthetic, PLASIQ’s aim is to create opportunities fo
     display: block;
     float: right;
     text-align: justify;
-    padding-right: 29px;
+    padding-right: 39px;
     padding-top: 29px;
     margin-top: 0;
       font-size: 12px;

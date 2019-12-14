@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4da08b92-602d-459d-a915-6f656af4bc06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/imgs" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,7 +56,8 @@
       <workItem from="1575590228387" duration="31258000" />
       <workItem from="1575985969065" duration="1566000" />
       <workItem from="1576161000102" duration="691000" />
-      <workItem from="1576175760297" duration="210000" />
+      <workItem from="1576175760297" duration="1549000" />
+      <workItem from="1576289456158" duration="18000" />
     </task>
     <servers />
   </component>
